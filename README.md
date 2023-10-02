@@ -46,7 +46,7 @@
 
 
 ## Comunicacion
-La comunicación del usuario con el prototipo se realizará mediante una conexión inalámbrica a través del protocolo Wi-Fi. El ESP32 actuará como un servidor Wi-Fi, permitiendo que el usuario interactúe con el campesino mediante una interfaz web. Los comandos enviados desde la interfaz web controlarán diversas funciones del personaje navideño, como encender luces, activar el movimiento del brazo o cambiar su estado. La interfaz web proporcionará una experiencia intuitiva para que el usuario pueda controlar y disfrutar del campesino con cesto de uvas.
+La comunicación del usuario con el prototipo se realizará mediante una conexión inalámbrica a través del protocolo Wi-Fi. El ESP32 actuará como un servidor Wi-Fi, permitiendo que el usuario interactúe con el pastor y las ovejas mediante una interfaz web. Los comandos enviados desde la interfaz web controlarán diversas funciones del personaje navideño, como encender luces, activar el movimiento del brazo o cambiar su estado. La interfaz web proporcionará una experiencia intuitiva para que el usuario pueda controlar y disfrutar del campesino con cesto de uvas.
 
 ## Arquitectura 
 |||
