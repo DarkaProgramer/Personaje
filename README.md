@@ -51,15 +51,13 @@ La comunicación del usuario con el prototipo se realizará mediante una conexi�
 ## Arquitectura 
 |||
 |-|-|
-ESP32|![ESP32]()|
-CABLES DUPONT|![CABLES]()|
-ARDUINO|![ARDUINO]()|
-PANTALLA OLED|![PANTALLA OLED]()|
-SENSOR DE MOV.|![SENSOR]()|
-KIT SOLDADURA|![KIT]()|
-MOTOR|![MOTOR]()|
-RESISTENCIA|![RESISTENCIA]()|
-SQLITE|![SQLITE]()|
+ESP32|![ESP32](https://github.com/AngelRico12/Personaje/blob/main/ESP32.jpg)|
+CABLES DUPONT|![CABLES](https://github.com/AngelRico12/Personaje/blob/main/CABLES.jpeg)|
+SENSOR DE MOV.|![SENSOR](https://github.com/AngelRico12/Personaje/blob/main/SENSOR.jpeg)|
+KIT SOLDADURA|![KIT](https://github.com/AngelRico12/Personaje/blob/main/kit%20solda.jpeg)|
+MOTORES STEPPER|![MOTOR](https://github.com/AngelRico12/Personaje/blob/main/MOTORES.jpeg)|
+RESISTENCIA|![RESISTENCIA](https://github.com/AngelRico12/Personaje/blob/main/resistencia.jpeg)|
+SQLITE|![SQLITE](https://github.com/AngelRico12/Personaje/blob/main/SQLITE.jpeg)|
 
 
 
