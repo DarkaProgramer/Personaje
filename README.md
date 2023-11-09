@@ -67,4 +67,4 @@ Circuito|![5 motores, 6 leds, 1 buzzer, 1 esp32](https://github.com/AngelRico12/
 
 
 ## Base de datos
-![Base de Datos]()
+![Base de Datos](https://github.com/AngelRico12/Personaje/blob/main/baseDeDatos.jpeg)
