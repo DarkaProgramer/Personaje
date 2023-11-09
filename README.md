@@ -42,7 +42,7 @@
 
 ## Prototipo en dibujo
 
-![Prototipo]()
+![Prototipo](https://github.com/AngelRico12/Personaje/blob/main/WhatsApp%20Image%202023-11-08%20at%206.49.26%20PM.jpeg)
 
 
 ## Comunicacion
