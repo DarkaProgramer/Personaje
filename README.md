@@ -61,6 +61,11 @@ SQLITE|![SQLITE](https://github.com/AngelRico12/Personaje/blob/main/SQLITE.jpeg)
 
 
 
+## Circuito wokwi
+|||
+|-|-|
+Circuito|![5 motores, 6 leds, 1 buzzer, 1 esp32](https://github.com/AngelRico12/Personaje/blob/main/wokwi.jpeg)|
+
 
 
 ## Base de datos
