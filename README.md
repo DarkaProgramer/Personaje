@@ -17,15 +17,13 @@
 
 |Nom Componente | Descripcion | Cantidad| Precio|
 |-|-|-|-|
-|ESP32|Microcontrolador con 30 pines con comunicacion WIFI y Bluetooth||$140.00|
+|ESP32|Microcontrolador con 30 pines con comunicacion WIFI y Bluetooth|1|$140.00|
 |Cable dupont|Cables para conexion de prototipos de pruebas|50|$60.00|
 |Sensor Pir Hc-sr501|Detector De Movimiento|2|$55.00|
-|Led|Se utiliza un LED como indicador visual.|10|$70.00|
-|SSD1306 pantalla OLED con Arduino|Controlador SSD1306 para pantalla OLED con Arduino y ESP8266| 1 | $89.00|
-|Pack 5 servomotores|servomotor con movimiento de 180 grados para el brazo|2|$50.00|
-|Soldador|kit de soldador para los motores y las piezas del muñeco|1| $90.00|
-|WINGONEER 25 Valores 16V 25V 50V 1uF a 2200uF | Condensadores electrolíticos | 10 | $40.00|
-| Kit Resistencias, Conjunto de Resistores fijos de película metálica, Resistencias de orificio|  (Stand Wire Gauge), perfecto para paneles en proyectos electrónicos de Arduino| 25 | $50.00|
+|Led|Se utilizan leds para iluminar la maqueta.|6|$70.00|
+|Pack 5 servomotores|servomotor con movimiento de 180 grados para el pastor y ovejas|2|$50.00|
+|Soldador|kit de soldador para los motores|1| $90.00|
+|buzzer|Emite sonido para las ovejas|2|$9.00|
 
 
 
@@ -46,7 +44,7 @@
 
 
 ## Comunicacion
-La comunicación del usuario con el prototipo se realizará mediante una conexión inalámbrica a través del protocolo Wi-Fi. El ESP32 actuará como un servidor Wi-Fi, permitiendo que el usuario interactúe con el pastor y las ovejas mediante una interfaz web. Los comandos enviados desde la interfaz web controlarán diversas funciones del personaje navideño, como encender luces, activar el movimiento del brazo o cambiar su estado. La interfaz web proporcionará una experiencia intuitiva para que el usuario pueda controlar y disfrutar del campesino con cesto de uvas.
+La comunicación del usuario con el prototipo se realizará mediante una conexión inalámbrica a través del protocolo Wi-Fi. El ESP32 actuará como un servidor Wi-Fi, permitiendo que el usuario interactúe con el pastor y las ovejas mediante una interfaz web. Los comandos enviados desde la interfaz web controlarán diversas funciones del personaje navideño, como encender luces, activar el movimiento del brazo o cambiar su estado, hacer que las ovejas muevan la cabeza y emitan sonidos. La interfaz web proporcionará una experiencia intuitiva para que el usuario pueda controlar tanto al pastor como a las ovejas.
 
 ## Arquitectura 
 |||
