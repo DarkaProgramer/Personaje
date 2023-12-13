@@ -11,6 +11,7 @@
 |-|-|-|
 |Jose Angel|Rangel|Rico|
 |Claudio Angel|Huerta|Ducoing|
+|Kevin|Conejo|Salazar|
 
 ## Materiales a utilizar
 
