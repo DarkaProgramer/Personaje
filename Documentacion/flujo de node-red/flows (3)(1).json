@@ -1,0 +1,142 @@
+[
+    {
+        "id": "993dff193d26b95f",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7ee9624b56d649ab",
+        "type": "inject",
+        "z": "993dff193d26b95f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 260,
+        "wires": [
+            [
+                "ec2b3aa36c41e66e"
+            ]
+        ]
+    },
+    {
+        "id": "ec2b3aa36c41e66e",
+        "type": "ui_switch",
+        "z": "993dff193d26b95f",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "5b412329933a5fb5",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "6b81c695dcaf6609"
+            ]
+        ]
+    },
+    {
+        "id": "6b81c695dcaf6609",
+        "type": "mqtt out",
+        "z": "993dff193d26b95f",
+        "name": "",
+        "topic": "pastoriot/dcms/led",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "6af33f96a80ed537",
+        "x": 630,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5b412329933a5fb5",
+        "type": "ui_group",
+        "name": "Leds",
+        "tab": "0e1d701a0db9aed4",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6af33f96a80ed537",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.1.100:1880",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "0e1d701a0db9aed4",
+        "type": "ui_tab",
+        "name": "PastoresYBorregas",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
