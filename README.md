@@ -12,6 +12,7 @@
 |Jose Angel|Rangel|Rico|
 |Claudio Angel|Huerta|Ducoing|
 |Kevin|Conejo|Salazar|
+|Brayan Yohani|Narvaez|Morales|
 
 ## Materiales a utilizar
 
